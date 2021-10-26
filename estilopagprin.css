@@ -156,7 +156,7 @@ footer > a{
 }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
 .titulo *{
     size: 100%;
     padding:0;
@@ -183,7 +183,7 @@ footer > a{
     padding: 0;
 }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
     .menu{
         width: 12%;
         margin: 1px;
