@@ -81,7 +81,7 @@ aside{
     margin: 1px;
     padding: 1px;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.85em;
     border: rgb(238, 182, 109) solid;
 }
 
@@ -192,7 +192,7 @@ footer > a{
         width: 12%;
         margin: 1px;
         padding: 1px;
-        font-size: 0.75em;
+        font-size: 0.85em;
     }
     .imagenes{
         width: 60em;
