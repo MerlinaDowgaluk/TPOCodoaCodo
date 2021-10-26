@@ -181,7 +181,7 @@ footer > a{
     font-size: 13px;
 }
 .menu{
-    font-size: 14px;
+    font-size: 0.80px;
     width: 20%;
     margin: 0;
     padding: 0;
@@ -192,7 +192,6 @@ footer > a{
         width: 12%;
         margin: 1px;
         padding: 1px;
-        font-size: 0.85em;
     }
     .imagenes{
         width: 60em;
