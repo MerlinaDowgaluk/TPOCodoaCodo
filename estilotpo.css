@@ -1,0 +1,164 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 188);    
+}
+.titulo *{
+    text-align: center;
+    color:beige;
+    font-family: 'Lato', sans-serif;
+
+}
+#tit *{
+    text-align: center;
+    color:beige;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(221, 168, 98);
+
+}
+.menu_bar{
+    display: none;
+}
+
+
+
+header *{
+    background-color: rgb(221, 168, 98);
+}
+.row{
+    display: flex;
+}
+.present{
+    color:rgb(46, 45, 45);
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.present2{
+    color:rgb(59, 55, 55);
+    font-size: 17px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 30px;
+}
+.subtit{
+    color: rgb(59, 55, 55);
+    margin: 3%;
+    padding: 1%;
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+    border: rgb(238, 182, 109) solid;
+}
+section{
+    flex: 50%;
+    padding: 20px;
+    align-self: center;
+}
+aside{
+    flex: 50%;
+    padding: 20px;
+    
+}
+.imagenes{
+    width: 60em;
+    height: 40em;
+}
+.mapa{
+    padding: 20px;
+    border: lightcoral solid;
+}
+#barramenu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    background-color: burlywood ;
+}
+#barramenu > a:link{
+    color: rgb(221, 168, 98);
+}
+#barramenu > a:visited{
+    color: rgb(221, 168, 98);
+}
+.menu{
+    width: 12%;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    font-size: 1em;
+    border: rgb(238, 182, 109) solid;
+}
+
+.footer{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    background-color: burlywood;
+}
+footer *{
+    flex: 50%;
+    color: rgb(46, 45, 45);
+    background-color: burlywood;
+}
+.icon{
+    flex: 50%;
+    text-align: end;
+
+}
+#servicios{
+    display: flex; 
+    width: 70%;
+    height: 200px;
+    margin: 5% 15%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+#servicios > a{
+    width: 200px;
+    color:rgb(46, 45, 45);
+    font-size: 120%;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.imgservicios{
+    display: flex;
+    align-content: center;
+}
+/*Aca esta el diseño de la transicion*/
+.transicion *{
+    width: 100%;
+}
+.transicion:hover *{
+    width: 1000px;
+    margin: 10px;
+
+}
+form {
+    position: relative;
+    color:rgb(46, 45, 45);
+    font-style: italic;
+    margin: 2%;
+    animation: fadeTopIn 2s;
+  }
+
+@keyframes fadeTopIn {
+    0% {
+      transform: translate3d(0, -20%, 0);
+      transform: translate3d(0, -20%, 0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: none;
+      transform: none;
+      opacity: 1;
+    }
+  }
