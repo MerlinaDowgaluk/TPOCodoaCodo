@@ -200,7 +200,8 @@ form {
     
     }
     #servicios{
-        font-size: 25px;
+        font-size: 15px;
+        flex-wrap: wrap;
     }
     footer > a{
         font-size: 8px;
